@@ -3,7 +3,7 @@ const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
-  theme: 'vdoing', // 使用npm包主题
+  theme: jekyll-theme-cayman, // 使用npm包主题
   title: "fq-notes",
   description: 'vdoing博客主题模板',
   base: '/fq-notes/', // 格式：'/<仓库名>/'， 默认'/'
